@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Excel temporary files
+~$*.xlsx
+
+# macOS
+.DS_Store
