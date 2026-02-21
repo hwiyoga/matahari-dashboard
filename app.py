@@ -103,11 +103,11 @@ elif page == "Qualified Participants":
     st.markdown("### Detailed List of Qualified Participants")
     st.dataframe(qualified_df, use_container_width=True)
 
-# elif page == "Qualified Participants":
-#    st.subheader("Qualified Participants (LULUS)")
-#
-#    qualified_df = df[df["Final Status"] == "LULUS"]
-#    st.dataframe(qualified_df, use_container_width=True)
+elif page == "Qualified Participants":
+    st.subheader("Qualified Participants (LULUS)")
+
+    qualified_df = df[df["Final Status"] == "LULUS"]
+    st.dataframe(qualified_df, use_container_width=True)
 
 elif page == "Not Yet Qualified Participants":
     st.subheader("Not Yet Qualified Participants (TIDAK LOLOS, LANJUT ESAI PENDEK)")
